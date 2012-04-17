@@ -14,4 +14,4 @@ json-parser: main.o jsoncpp/src/lib_json/json_reader.o jsoncpp/src/lib_json/json
 all: json-parser
 
 clean:
-	rm *.o
+	rm *.o jsoncpp/src/lib_json/*.o json-parser
